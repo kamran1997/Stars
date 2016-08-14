@@ -151,7 +151,7 @@ end
 function is_sudo(msg)
   local var = false
   -- Check users id in config
-  for v,user in pairs(_config.sudo_users) do
+  for v,user in pairs(_config.sudo_227972854) do
     if user == msg.from.id then
       var = true
     end
